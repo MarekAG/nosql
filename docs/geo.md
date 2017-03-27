@@ -53,7 +53,7 @@ Skrypt [script_postgres.sh](../geo/script_postgres.sh) za pomocą PostGIS i narz
 
 ## Podsumowanie
 
-Czasy wykonaia zostały zmierzone przy użyciu polecenia _time_
+Czasy wykonaia zostały zmierzone przy użyciu polecenia _time_.
 
 | Czasy | Elasticsearch | PostgreSQL |
 |--|--|--|
