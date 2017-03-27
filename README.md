@@ -2,7 +2,14 @@
 
 Rozwiązania zadań z przedmiotu *Bazy NoSQL*:
 
-Wybrany zbiór danych - [MovieLens](https://grouplens.org/datasets/movielens/latest/)
+[Zadanie GEO](https://marekag.github.io/nosql/)
+
+Wybrane zbiory danych:
+
+[Pedestrian Crossings](https://data.gov.uk/dataset/pedestrain-crossing)
+
+[MovieLens](https://grouplens.org/datasets/movielens/latest/)
+
 
 1. Zaliczenie:
  - [ ] EDA
