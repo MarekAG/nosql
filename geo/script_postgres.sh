@@ -1,4 +1,5 @@
 #!/bin/bash
+rm -f result_postgres.geojson
 
 ogr2ogr -f "GeoJSON" result_postgres.geojson PG:"host=localhost dbname=postgres user=postgres password=postgres" -sql 'SELECT *
 FROM ogrgeojson

@@ -49,3 +49,18 @@ W kolejnych krokach uruchamiamy skrypty o analogicznym działaniu co te dla Elas
 Skrypt [insert_postgres.sh](../geo/insert_postgres.sh) za pomocą narzędzia ogr2ogr przekształca GeoJSON w odpowiednią tabelę w bazie danych.
 
 Skrypt [script_postgres.sh](../geo/script_postgres.sh) za pomocą PostGIS i narzędzia ogr2ogr "w locie" odpytuje bazę, przekształca zwróceone rekordy w GeoJSON i zapisuje je do pliku [result_postgres.geojson](../geo/result_postgres.geojson)
+
+
+## Podsumowanie
+
+Czasy wykonaia zostały zmierzone przy użyciu polecenia _time_
+
+| Czasy | Elasticsearch | PostgreSQL |
+|--|--|--|
+|insert | 0.16s. | 0.16s. |
+|script | 0.06s. | 0.06s. |
+
+Werdykt może być tylko jeden:
+### REMIS
+
+Jestem nieco zaskoczony, ale obie bazy spisały się równie dobrze. Średnie czasy przy dziesięciokrotnym wywołaniu każdego skryptu okazały się takie same (co do setnych części sekundy) dla Elasticsearch i PostgreSQL.
