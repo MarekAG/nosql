@@ -1,0 +1,18 @@
+{
+	"mappings": {
+		"crossings": {
+			"properties": {
+				"geometry": {
+					"properties": {
+						"type": {
+							"type": "text"
+						},
+						"coordinates": {
+							"type": "geo_point"
+						}
+					}
+				}
+			}
+		}
+	}
+}
